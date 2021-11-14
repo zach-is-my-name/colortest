@@ -1,11 +1,8 @@
 import React, {Component} from 'react';
-//import blessed from 'blessed';
-//import {render} from 'react-blessed';
-import blessed from 'neo-blessed';
-import {createBlessedRenderer} from 'react-blessed';
+import blessed from 'blessed';
+import {render} from 'react-blessed';
 import chalk from 'chalk'
 const blessedChalk = new chalk.Instance({level: 2});
-const render = createBlessedRenderer(blessed);
 
 //
 // Rendering a simple centered box
